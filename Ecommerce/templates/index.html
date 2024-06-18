@@ -2,32 +2,9 @@
 {% block title %}Home{% endblock title %}
 {% block content %}
 
-<div class="card bg-light p-4">
-  <h3 class="text-dark">SignUp</h3>
-<form action="/auth/signup/" method="post">{% csrf_token %}
-  
-  <label for="email">Email</label>
-  <div class="form-group">
-  <input type="email" class="form-control" id="email" name="email" required>
-  </div>
-  <label for="pass1">Password</label>
-  <div class="form-group">
-  <input type="password" class="form-control" id="pass1" name="pass1" required>
-  </div>
-  <label for="form-group">Confirm Password</label>
-  <div class="form-group">
-  <input type="password" class="form-control" id="pass2" name="pass2" required>
-  </div>
-  <br>
-  <button type="submit" class="btn btn-success">SignIn</button>
-  <br>
-  Already User? <a href="/auth/login">Login</a>
-  <br>
-  
-</form> 
 
-</div>
-
+<h1>Welcome to Shop Cart</h1>
+<h2>Great stores. Great choices.</h2>
 {% endblock content %}
 {% block body %}
     <!-- ======= Portfolio Section ======= -->
